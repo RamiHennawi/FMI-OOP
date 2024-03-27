@@ -64,7 +64,7 @@ void readOrdersFromFile(const char* file, PizzaDelivery*& orders, size_t& orders
     ordersCount = fileSize / sizeof(PizzaDelivery);
 
     orders = new PizzaDelivery[ordersCount];
-    size_t currentOrder = 0;
+    size_t currentOrder = 0; // tova ne go polzvash!!
 
     in.read((char*)orders, fileSize);
 
@@ -105,15 +105,24 @@ void initDelivery(PizzaDelivery& order, const double price, const char* phone, c
 
 const char* getPizzaType(const PizzaType type) {
     switch (type) {
-    case PizzaType::Margherita: return "Beauty";
-    case PizzaType::Pepperoni: return "Pepperoni";
-    case PizzaType::Hawaiian: return "Hawaiian";
-    case PizzaType::Supreme: return "Supreme";
-    case PizzaType::MeatLover: return "MeatLover";
-    case PizzaType::Vegetarian: return "Vegetarian";
-    case PizzaType::BBQChicken: return "BBQChicken";
-    case PizzaType::BuffaloChicken: return "BuffaloChicken";
-    default: return "Unknown";
+    case PizzaType::Margherita: 
+        return "Margherita";
+    case PizzaType::Pepperoni: 
+        return "Pepperoni";
+    case PizzaType::Hawaiian: 
+        return "Hawaiian";
+    case PizzaType::Supreme: 
+        return "Supreme";
+    case PizzaType::MeatLover: 
+        return "MeatLover";
+    case PizzaType::Vegetarian: 
+        return "Vegetarian";
+    case PizzaType::BBQChicken:
+        return "BBQChicken";
+    case PizzaType::BuffaloChicken:
+        return "BuffaloChicken";
+    default:   
+        return "Unknown";
     }
 }
 
@@ -129,15 +138,19 @@ const char* getAdditionalItem(const AdditionalItems item) {
 
 void printDelivery(const PizzaDelivery& order) {
     std::cout << order.customerName << ", " << order.phone << ", " << order.address << std::endl;
+
     for (int i = 0; i < order.pizzasCount; i++) {
         std::cout << getPizzaType(order.pizzas[i]);
+
         if (i != order.pizzasCount - 1) {
             std::cout << ", ";
         }
     }
     std::cout << std::endl;
+
     for (int i = 0; i < order.additionsCount; i++) {
         std::cout << getAdditionalItem(order.additions[i]);
+
         if (i != order.additionsCount - 1) {
             std::cout << ", ";
         }
@@ -146,6 +159,7 @@ void printDelivery(const PizzaDelivery& order) {
         std::cout << "-";
     }
     std::cout << std::endl;
+
     std::cout << order.price << std::endl << std::endl;
 }
 
@@ -161,7 +175,7 @@ void swapOrders(PizzaDelivery& order1, PizzaDelivery& order2) {
     order2 = temp;
 }
 
-void sortByAddress(PizzaDelivery* orders, const size_t ordersCount) {
+void sortByAddress(PizzaDelivery* orders, const size_t ordersCount) { //moje da se optimizira
     for (size_t i = 0; i < ordersCount - 1; i++) {
         for (size_t j = 0; j < ordersCount - i - 1; j++) {
             if (strcmp(orders[j].address, orders[j + 1].address) > 0) {

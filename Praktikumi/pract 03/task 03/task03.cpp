@@ -24,7 +24,7 @@ void printJobRequestInFile(const JobRequest& request, std::ofstream& out) {
     out.write((const char*)&request, sizeof(request));
 }
 
-void inputRequestToFile(std::ofstream& out) {
+void inputRequestToFile(std::ofstream& out) { // da se razdeli - purvo samo input, posle output => ABSTRAKCIQ!!!
     JobRequest request;
 
     std::cin.ignore();

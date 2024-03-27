@@ -15,6 +15,7 @@ void getMatrixDimensions(std::ifstream& in, size_t& rows, size_t& cols) {
     while (!in.eof()) {
         char a;
         in.get(a);
+        // trqbva proverka da ne e kraq => moje da e samo while(true) i da ima break ot tova
 
         if (a == GLOBAL_CONSTANTS::COL_SEPARATOR && countRows == 0) {
             countCols++;
@@ -160,8 +161,8 @@ int main()
 
     writeMatrixInFile(out, resultMatrix, resultMatrixRows, resultMatrixCols);
 
-    in1.close();
-    in2.close();
+    in1.close(); // moje da se zatvori po-rano, sled kato e veche nenujen
+    in2.close(); // same here
     out.close();
 
     freeMatrix(matrixOne, matrixOneRows);
