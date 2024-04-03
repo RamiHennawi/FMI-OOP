@@ -19,6 +19,9 @@ void MonsterCard::copyFrom(const MonsterCard& other) {
 
 void MonsterCard::free() {
 	delete[] name;
+	name = nullptr;
+	attackPoints = 0;
+	defencePoints = 0;
 }
 
 MonsterCard::MonsterCard(const char* name, unsigned attack, unsigned defence) {

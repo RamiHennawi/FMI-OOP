@@ -15,6 +15,8 @@ void Duelist::copyFrom(const Duelist& other) {
 
 void Duelist::free() {
 	delete[] name;
+	name = nullptr;
+	deck = {};
 }
 
 Duelist::Duelist(const char* name) : deck() {

@@ -18,6 +18,10 @@ void NumberSeries::copyFrom(const NumberSeries& other) {
 
 void NumberSeries::free() {
 	delete[] generatedNumbers;
+	generatedNumbers = nullptr;
+	transitionFunction = nullptr;
+	initialValue = 0;
+	generatedNumbersCount = 0;
 }
 
 NumberSeries::NumberSeries(const NumberSeries& other) {

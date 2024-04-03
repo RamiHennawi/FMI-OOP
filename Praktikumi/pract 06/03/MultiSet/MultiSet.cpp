@@ -19,6 +19,9 @@ void MultiSet::copyFrom(const MultiSet& other) {
 
 void MultiSet::free() {
 	delete[] elements;
+	elements = nullptr;
+	maxNumber = 0;
+	elementsCount = 0;
 }
 
 void MultiSet::resize(int sizeChange) {
