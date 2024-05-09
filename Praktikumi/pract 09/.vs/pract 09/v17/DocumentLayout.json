@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\MyString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|solutionrelative:pract 09\\MyString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\MyString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|solutionrelative:pract 09\\MyString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|solutionrelative:pract 09\\Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,12 +19,20 @@
       "RelativeMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|solutionrelative:pract 09\\Order.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Restaurant.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|solutionrelative:pract 09\\Restaurant.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Foodpanda.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|solutionrelative:pract 09\\Foodpanda.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Restaurant.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|solutionrelative:pract 09\\Restaurant.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Foodpanda.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|solutionrelative:pract 09\\Foodpanda.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Restaurant.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|solutionrelative:pract 09\\Restaurant.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28D713AE-7179-4818-AD67-5F27E2A22BDD}|pract 09\\pract 09.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\pract 09.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,69 +46,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Restaurant.cpp",
-              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Restaurant.cpp",
-              "RelativeDocumentMoniker": "pract 09\\Restaurant.cpp",
-              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Restaurant.cpp",
-              "RelativeToolTip": "pract 09\\Restaurant.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "MyString.cpp",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\MyString.cpp",
+              "RelativeDocumentMoniker": "pract 09\\MyString.cpp",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\MyString.cpp",
+              "RelativeToolTip": "pract 09\\MyString.cpp",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAqwFEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-19T11:08:55.799Z"
+              "WhenOpened": "2024-05-08T21:16:28.005Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "MyString.h",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\MyString.h",
+              "RelativeDocumentMoniker": "pract 09\\MyString.h",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\MyString.h",
+              "RelativeToolTip": "pract 09\\MyString.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-08T21:18:58.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Foodpanda.h",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Foodpanda.h",
+              "RelativeDocumentMoniker": "pract 09\\Foodpanda.h",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Foodpanda.h",
+              "RelativeToolTip": "pract 09\\Foodpanda.h",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-08T20:48:00.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Foodpanda.cpp",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Foodpanda.cpp",
+              "RelativeDocumentMoniker": "pract 09\\Foodpanda.cpp",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Foodpanda.cpp",
+              "RelativeToolTip": "pract 09\\Foodpanda.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-08T20:51:04.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Restaurant.h",
               "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Restaurant.h",
               "RelativeDocumentMoniker": "pract 09\\Restaurant.h",
               "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Restaurant.h",
               "RelativeToolTip": "pract 09\\Restaurant.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-19T11:04:19.19Z"
+              "WhenOpened": "2024-04-19T11:04:19.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "Restaurant.cpp",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Restaurant.cpp",
+              "RelativeDocumentMoniker": "pract 09\\Restaurant.cpp",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Restaurant.cpp",
+              "RelativeToolTip": "pract 09\\Restaurant.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAD4vw8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-19T11:08:55.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Order.h",
               "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Order.h",
               "RelativeDocumentMoniker": "pract 09\\Order.h",
               "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Order.h",
               "RelativeToolTip": "pract 09\\Order.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-19T09:47:39.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Order.cpp",
               "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Order.cpp",
               "RelativeDocumentMoniker": "pract 09\\Order.cpp",
               "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\Order.cpp",
               "RelativeToolTip": "pract 09\\Order.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAABAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAuwFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-19T09:47:42.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "pract 09.cpp",
               "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\pract 09.cpp",
               "RelativeDocumentMoniker": "pract 09\\pract 09.cpp",
               "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 09\\pract 09\\pract 09.cpp",
               "RelativeToolTip": "pract 09\\pract 09.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-19T09:47:06.456Z"
+              "WhenOpened": "2024-04-19T09:47:06.456Z",
+              "EditorCaption": ""
             }
           ]
         }
