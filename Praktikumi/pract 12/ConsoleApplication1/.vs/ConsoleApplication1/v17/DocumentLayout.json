@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Form.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Form.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Form.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Form.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Control.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Control.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Control.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Control.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\CheckBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\CheckBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Label.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Label.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\CheckBox.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\CheckBox.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Label.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C102DE1-C051-4068-9207-71EA60FB36D6}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Label.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Control.h",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Control.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Control.h",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Control.h",
+              "RelativeToolTip": "ConsoleApplication1\\Control.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-17T10:35:36.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Control.cpp",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Control.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Control.cpp",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Control.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\Control.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-17T10:19:13.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form.h",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Form.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Form.h",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Form.h",
+              "RelativeToolTip": "ConsoleApplication1\\Form.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-17T09:44:01.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form.cpp",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Form.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Form.cpp",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Form.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\Form.cpp",
+              "ViewState": "AQIAADYAAAAAAAAAAAAIwEwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-17T10:23:39.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckBox.h",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\CheckBox.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\CheckBox.h",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\CheckBox.h",
+              "RelativeToolTip": "ConsoleApplication1\\CheckBox.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-17T10:07:40.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckBox.cpp",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\CheckBox.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\CheckBox.cpp",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\CheckBox.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\CheckBox.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-17T10:19:13.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Label.h",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Label.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Label.h",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Label.h",
+              "RelativeToolTip": "ConsoleApplication1\\Label.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-17T10:07:04.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Label.cpp",
+              "DocumentMoniker": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Label.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Label.cpp",
+              "ToolTip": "C:\\Users\\rhenn\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\FMI\\FMI-OOP\\Praktikumi\\pract 12\\ConsoleApplication1\\ConsoleApplication1\\Label.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\Label.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-17T10:15:54.69Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
