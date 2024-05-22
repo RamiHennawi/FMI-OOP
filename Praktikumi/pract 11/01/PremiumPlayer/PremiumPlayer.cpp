@@ -8,7 +8,7 @@ void PremiumPlayer::copyFrom(const PremiumPlayer& other) {
 void PremiumPlayer::moveFrom(PremiumPlayer&& other) noexcept {
 	name = other.name;
 
-	delete[] other.name;
+	other.name = nullptr;
 }
 
 void PremiumPlayer::free() {
@@ -16,6 +16,10 @@ void PremiumPlayer::free() {
 }
 
 PremiumPlayer::PremiumPlayer(const char* name) {
+	if(!name) {
+		throw std::logic_error("Invalid argument");
+	}
+	
 	this->name = new char[strlen(name) + 1];
 	strcpy(this->name, name);
 }
