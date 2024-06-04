@@ -1,7 +1,14 @@
-﻿#include "UserInterface.h"
+﻿#include <iostream>
+#include <exception>
+#include "UserInterface.h"
 
 int main() {
 	UserInterface ui;
 
-	ui.start();
+	try {
+		ui.start();
+	}
+	catch (std::exception& e) {
+		std::cout << e.what();
+	}
 }

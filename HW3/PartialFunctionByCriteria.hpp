@@ -21,12 +21,11 @@ PartialFunctionByCriteria<T>::PartialFunctionByCriteria(const T& obj) : function
 
 template <typename T>
 Pair<bool, int32_t> PartialFunctionByCriteria<T>::operator()(int32_t x) const {
-	if (isDefinedIn(x)) {
-		return function(x);
+	if (!isDefinedIn(x)) {
+		return Pair<bool, int32_t>(0, 0);
 	}
-	else {
-		throw std::invalid_argument("Function is not defined in that point.");
-	}
+
+	return function(x);
 }
 
 template <typename T>

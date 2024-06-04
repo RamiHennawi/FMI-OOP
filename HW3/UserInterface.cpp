@@ -9,7 +9,7 @@ namespace HelperFunctions {
 
 		for (size_t i = 0; num[i] != '\0'; i++) {
 			if (num[i] < '0' || num[i] > '9') {
-				throw std::invalid_argument("Invalid input.");
+				throw std::invalid_argument("Invalid input.\n");
 			}
 
 			result = result * 10 + (num[i] - '0');
@@ -21,25 +21,28 @@ namespace HelperFunctions {
 
 void UserInterface::start() const {
 	std::cout << "Welcome to Partial Functions!\n";
-	std::cout << "First, give me the name of the data file\n--> ";
+	std::cout << "First, give me the name of the data file.\n--> ";
 
 	char buffer[BUFFER_SIZE];
 	std::cin >> buffer;
 
+	std::cout << std::endl;
+
 	PartialFunction* func = partialFunctionFactory(buffer);
 
-	std::cout << "\nCool! Now, choose one of the following work flows:\n1. Print function values in closed interval\n"
+	std::cout << "Cool! Now, choose one of the following work flows:\n1. Print function values in closed interval\n"
 		<< "2. Generate function values after each input you give\n--> ";
 
 	short flow;
 	std::cin >> flow;
 
 	if (flow == 1) {
-		std::cout << "\nGood! Enter a and b in [a, b]: ";
+		std::cout << "\nGood! Enter a and b in [a, b].\n--> ";
 
 		int32_t a, b;
 		while (true) {
 			std::cin >> a >> b;
+			std::cout << std::endl;
 
 			if (a > b) {
 				std::cout << "Invalid input. Try again.\n";
@@ -53,11 +56,11 @@ void UserInterface::start() const {
 
 			std::cout << "f(" << i << ") = ";
 
-			try {
+			if (func->isDefinedIn(i)) {
 				std::cout << func->operator()(i).getSecond() << std::endl;
 			}
-			catch (std::invalid_argument& e) {
-				std::cout << "undefined" << std::endl;
+			else {
+				std::cout << "not defined" << std::endl;
 			}
 		}
 	}
@@ -79,11 +82,11 @@ void UserInterface::start() const {
 
 			std::cout << "f(" << number << ") = ";
 
-			try {
+			if (func->isDefinedIn(number)) {
 				std::cout << func->operator()(number).getSecond() << std::endl;
 			}
-			catch (std::invalid_argument& e) {
-				std::cout << "undefined" << std::endl;
+			else {
+				std::cout << "not defined" << std::endl;
 			}
 		}
 	}

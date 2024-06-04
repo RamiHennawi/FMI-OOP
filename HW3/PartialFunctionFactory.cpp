@@ -8,42 +8,44 @@
 #include <iostream>
 #include <fstream>
 
+constexpr size_t BUFF_SIZE = 100;
+constexpr uint16_t MAX_NUM_FILE_VALUE = 32;
+
 PartialFunction* partialFunctionFactory(const char* fileName) {
 	std::ifstream in(fileName, std::ios::in | std::ios::binary);
 
 	if (!in.is_open()) {
-		throw std::runtime_error("Could not open source file.");
+		throw std::runtime_error("Could not open source file.\n");
 	}
 
-	int32_t num, type;
-	in.read(reinterpret_cast<char*>(&num), sizeof(int32_t));
-	in.read(reinterpret_cast<char*>(&type), sizeof(int32_t));
+	uint16_t num, type;
+	in.read(reinterpret_cast<char*>(&num), sizeof(uint16_t));
+	in.read(reinterpret_cast<char*>(&type), sizeof(uint16_t));
 
+	if (num > MAX_NUM_FILE_VALUE) {
+		throw std::invalid_argument("Number in file exceeds limit.\n");
+	}
+
+	// create the proper function according to the type (t)
 	switch (type) {
 	case 0: {
 		Function f(in, num, 0);
 		return new PartialFunctionByCriteria<Function>(f);
-
-		break;
 	}
 	case 1: {
 		Function f(in, num, 1);
 		return new PartialFunctionByCriteria<Function>(f);
-
-		break;
 	}
 	case 2: {
 		Function f(in, num, 2);
 		return new PartialFunctionByCriteria<Function>(f);
-
-		break;
 	}
 	case 3: {
 		PartialFunctionCollection collection;
 
 		while (true) {
-			char buffer[100];
-			in.read(reinterpret_cast<char*>(&buffer), 100);
+			char buffer[BUFF_SIZE];
+			in.read(reinterpret_cast<char*>(&buffer), BUFF_SIZE);
 
 			if (in.eof()) {
 				break;
@@ -54,15 +56,13 @@ PartialFunction* partialFunctionFactory(const char* fileName) {
 		}
 
 		return new MaxPartialFunction(collection);
-
-		break;
 	}
 	case 4: {
 		PartialFunctionCollection collection;
 
 		while (true) {
-			char buffer[100];
-			in.read(reinterpret_cast<char*>(&buffer), 100);
+			char buffer[BUFF_SIZE];
+			in.read(reinterpret_cast<char*>(&buffer), BUFF_SIZE);
 
 			if (in.eof()) {
 				break;
@@ -72,12 +72,10 @@ PartialFunction* partialFunctionFactory(const char* fileName) {
 		}
 
 		return new MinPartialFunction(collection);
-
-		break;
 	}
 	default: {
 		in.close();
-		throw std::invalid_argument("Invalid file type.");
+		throw std::invalid_argument("Invalid number for function type.\n");
 	}
 	}
 

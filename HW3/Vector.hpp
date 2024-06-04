@@ -2,6 +2,7 @@
 #include <utility>
 #include <exception>
 
+// code from seminars by Georgi Terziev
 template<typename T>
 class Vector {
 private:
@@ -14,7 +15,7 @@ private:
 
 	void resize(size_t newCapacity);
 
-	//fix this
+	// not used
 	void assertIndex(size_t index) const;
 	void upsizeIfNeeded();
 	void downsizeIfNeeded();
@@ -33,11 +34,14 @@ public:
 
 	void pushBack(const T& element);
 	void pushBack(T&& element);
+
+	// not used
 	void pushAt(const T& element, size_t index);
 	void pushAt(T&& element, size_t index);
 	T popBack();
 	T popAt(size_t index);
 
+	// not used
 	bool empty() const;
 	void clear();
 	void shrinkToFit();
@@ -53,7 +57,6 @@ private:
 
 template<typename T>
 Vector<T>::Vector() : Vector(INITIAL_CAPACITY) { }
-
 
 template<typename T>
 Vector<T>::Vector(size_t capacity) : capacity(capacity) {

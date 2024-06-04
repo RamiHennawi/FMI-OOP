@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 
+// code from seminars by Georgi Terziev
 template<typename T, typename D>
 class Pair {
 	T first;
@@ -18,6 +19,7 @@ public:
 	const T& getFirst() const;
 	const D& getSecond() const;
 
+	// not used
 	void setFirst(const T& newValue);
 	void setFirst(T&& newValue);
 	void setSecond(const D& newValue);
@@ -26,7 +28,6 @@ public:
 
 template<typename T, typename D>
 Pair<T, D>::Pair(const T& first, const D& second) : first(first), second(second) {}
-
 
 template<typename T, typename D>
 Pair<T, D>::Pair(T&& first, D&& second) : first(std::move(first)), second(std::move(second)) {}

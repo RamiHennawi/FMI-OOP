@@ -6,6 +6,7 @@ namespace FUNCTION_COLLECTION_CONSTANTS {
 	constexpr size_t RESIZE_COEFFICIENT = 2;
 }
 
+// used to store collections for extremal functions
 class PartialFunctionCollection {
 private:
 	PartialFunction** functions = nullptr;
@@ -27,7 +28,7 @@ public:
 	void addFunction(const PartialFunction&);
 
 	size_t getCount() const;
-	const PartialFunction& getFunction(size_t) const;
+	const PartialFunction& getFunction(size_t) const; // alternative to operator[]
 
 	const PartialFunction& operator[](size_t) const;
 

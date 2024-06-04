@@ -13,7 +13,7 @@ void PartialFunctionCollection::resize() {
 }
 
 PartialFunctionCollection::PartialFunctionCollection() {
-	functions = new PartialFunction * [capacity];
+	functions = new PartialFunction* [capacity];
 }
 
 PartialFunctionCollection::PartialFunctionCollection(const PartialFunctionCollection& other) {
@@ -79,7 +79,7 @@ void PartialFunctionCollection::copyFrom(const PartialFunctionCollection& other)
 	count = other.count;
 	capacity = other.capacity;
 
-	functions = new PartialFunction * [capacity];
+	functions = new PartialFunction* [capacity];
 	for (size_t i = 0; i < count; i++) {
 		functions[i] = other.functions[i]->clone();
 	}

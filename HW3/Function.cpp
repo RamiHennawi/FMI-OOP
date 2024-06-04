@@ -1,6 +1,6 @@
 #include "Function.h"
 
-Function::Function(std::ifstream& in, int32_t n, int32_t t) : values(FUNCTION_SIZE) {
+Function::Function(std::ifstream& in, uint16_t n, uint16_t t) : values(FUNCTION_SIZE) {
 	switch (t) {
 	case 0: {
 		functionTypeZero(in, n);
@@ -14,9 +14,10 @@ Function::Function(std::ifstream& in, int32_t n, int32_t t) : values(FUNCTION_SI
 		functionTypeTwo(in, n);
 		break;
 	}
+	default: {
+		throw std::invalid_argument("Invalid number for function type.\n");
 	}
-
-	// exception for other cases??
+	}
 }
 
 bool Function::isDefinedIn(int32_t x) const {
@@ -25,39 +26,31 @@ bool Function::isDefinedIn(int32_t x) const {
 
 Pair<bool, int32_t> Function::operator()(int32_t x) const {
 	if (!isDefinedIn(x)) {
-		throw std::invalid_argument("Function is not defined in that point.");
+		return Pair<bool, int32_t>(0, 0);
 	}
 	
 	return values[x + FUNCTION_TRANSLATION_RATE];
 }
 
-void Function::print() const {
-	for (int i = 0; i < FUNCTION_SIZE; i++) {
-		std::cout << i << "(" << values[i].getFirst() << ", " << values[i].getSecond() << ") ";
-	}
-
-	std::cout << std::endl;
-}
-
-void Function::functionTypeZero(std::ifstream& in, int32_t n) {
+void Function::functionTypeZero(std::ifstream& in, uint16_t n) {
 	int32_t* arguments = new int32_t[n];
 	int32_t* results = new int32_t[n];
 
-	int32_t input;
+	int32_t fileNumber;
 
 	for (size_t i = 0; i < n; i++) {
-		in.read(reinterpret_cast<char*>(&input), sizeof(int32_t));
+		in.read(reinterpret_cast<char*>(&fileNumber), sizeof(int32_t));
 
-		arguments[i] = input;
+		arguments[i] = fileNumber;
 	}
 
 	for (size_t i = 0; i < n; i++) {
-		in.read(reinterpret_cast<char*>(&input), sizeof(int32_t));
+		in.read(reinterpret_cast<char*>(&fileNumber), sizeof(int32_t));
 
-		results[i] = input;
+		results[i] = fileNumber;
 	}
 
-	for (int32_t i = 0; i < FUNCTION_SIZE; i++) {
+	for (uint32_t i = 0; i < FUNCTION_SIZE; i++) {
 		int32_t argumentIndex = -1;
 
 		for (uint32_t j = 0; j < n; j++) {
@@ -67,6 +60,7 @@ void Function::functionTypeZero(std::ifstream& in, int32_t n) {
 			}
 		}
 
+		// specific for the function type (pair)
 		if (argumentIndex != -1) {
 			values.pushBack(Pair<bool, int32_t>(true, results[argumentIndex]));
 		}
@@ -79,18 +73,18 @@ void Function::functionTypeZero(std::ifstream& in, int32_t n) {
 	delete[] results;
 }
 
-void Function::functionTypeOne(std::ifstream& in, int32_t n) {
+void Function::functionTypeOne(std::ifstream& in, uint16_t n) {
 	int32_t* arguments = new int32_t[n];
 
-	int32_t input;
+	int32_t fileNumber;
 
 	for (size_t i = 0; i < n; i++) {
-		in.read(reinterpret_cast<char*>(&input), sizeof(int32_t));
+		in.read(reinterpret_cast<char*>(&fileNumber), sizeof(int32_t));
 
-		arguments[i] = input;
+		arguments[i] = fileNumber;
 	}
 
-	for (int32_t i = 0; i < FUNCTION_SIZE; i++) {
+	for (uint32_t i = 0; i < FUNCTION_SIZE; i++) {
 		bool isNotDefined = false;
 
 		for (uint32_t j = 0; j < n; j++) {
@@ -100,6 +94,7 @@ void Function::functionTypeOne(std::ifstream& in, int32_t n) {
 			}
 		}
 
+		// specific for the function type (identity)
 		if (isNotDefined) {
 			values.pushBack(Pair<bool, int32_t>(false, 0));
 		}
@@ -111,18 +106,18 @@ void Function::functionTypeOne(std::ifstream& in, int32_t n) {
 	delete[] arguments;
 }
 
-void Function::functionTypeTwo(std::ifstream& in, int32_t n) {
+void Function::functionTypeTwo(std::ifstream& in, uint16_t n) {
 	int32_t* arguments = new int32_t[n];
 
-	int32_t input;
+	int32_t fileNumber;
 
 	for (size_t i = 0; i < n; i++) {
-		in.read(reinterpret_cast<char*>(&input), sizeof(int32_t));
+		in.read(reinterpret_cast<char*>(&fileNumber), sizeof(int32_t));
 
-		arguments[i] = input;
+		arguments[i] = fileNumber;
 	}
 
-	for (int32_t i = 0; i < FUNCTION_SIZE; i++) {
+	for (uint32_t i = 0; i < FUNCTION_SIZE; i++) {
 		bool isSpecified = false;
 
 		for (uint32_t j = 0; j < n; j++) {
@@ -132,6 +127,7 @@ void Function::functionTypeTwo(std::ifstream& in, int32_t n) {
 			}
 		}
 
+		// specific for the function type (bool)
 		if (isSpecified) {
 			values.pushBack(Pair<bool, int32_t>(true, 1));
 		}

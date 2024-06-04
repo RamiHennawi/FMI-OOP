@@ -2,6 +2,7 @@
 #include "PartialFunctionCollection.h"
 #include "Pair.hpp"
 
+// Base for Min/MaxPartialFunctions
 class ExtremalPartialFunction : public PartialFunction {
 public:
 	ExtremalPartialFunction(const PartialFunctionCollection&);
